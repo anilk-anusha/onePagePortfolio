@@ -1,0 +1,9 @@
+.navbar{
+    background-color: rgb(43, 144, 226) !important;
+}
+.navbar-brand, .nav-link {
+    color: aliceblue;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: red;
+}
