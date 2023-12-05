@@ -4,31 +4,335 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
-    <!-- Linking Bootstrap CSS file -->
-    <!-- REMOVE -- Not necessary to have this linked, use bootstrap link as HK did in class -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <!-- Linking Local CSS file -->
-     <link rel="stylesheet" href="myStyles.css" type="text/css">
+    <title>Anusha Anil Kumar - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="myStyles.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <section class="navigation">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Anusha Anil Kumar</a>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Services</a>
-                  <a class="nav-link" href="#">Projects</a>
-                  <a class="nav-link" href="#">About</a>
-                  <a class="nav-link" href="#">Contact</a>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Anusha Anil Kumar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+
+        <!-- Introduction Section -->
+        <section id="introduction" class="mb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="introduction-text py-4">
+                            <h1>Hello👋 , I'm Anusha, a multifaceted web developer</h1>
+                            <p>Welcome to my website! I'm a developer based out of Calgary, Alberta and I love working
+                                with all things Web. I'm all about those thrilling challenges and creating web wonders
+                                with code, creativity, and UX wizardry. Think of me as your Interaction Alchemist! 🪄
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-center">
+                            <img src="assets/img/pic.png" alt="My Picture" class="img-fluid my-img">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-center">
+                            <img src="assets/img/pic.png" alt="Second Picture" class="img-fluid my-img">
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
-    </section>
+        </section>
+
+
+        <!-- Services Section -->
+        <section id="services" class="mb-5">
+            <h2>Services 🎯</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Crafting responsive and dynamic web solutions tailored to your needs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">UX Design</h5>
+                            <p class="card-text">Creating seamless and intuitive digital experiences for optimal user
+                                engagement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Stack</h5>
+                            <p class="card-text">Comprehensive development expertise for seamless end-to-end solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Technical Writing</h5>
+                            <p class="card-text">Clear, engaging content tailored to diverse audiences and industries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">UX Research</h5>
+                            <p class="card-text">Deep insights through user-centric analysis for optimized experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Analytics</h5>
+                            <p class="card-text">Producing insights and trends with powerful data analysis and
+                                visualization.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-5">
+            <h2>Projects 🎯</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Brahmi Ayurvedic Clinic website</h5>
+                            <p class="card-text">Creating a Digital Presence for Brahmi Ayurvedic Clinic.</p>
+                            <a href="https://anusha-anilkumar.netlify.app/web-brahmi-ayur-clinic"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">My Portfolio Website</h5>
+                            <p class="card-text">Creating a portfolio website to showcase my projects, skills, and
+                                expertise.</p>
+                            <a href="https://anusha-anilkumar.netlify.app/ux-portfolio-creation"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Technical Documentaion Page</h5>
+                            <p class="card-text">A technical documentation page to serve as an instruction or reference
+                                for a topic.</p>
+                            <a href="https://anusha-anilkumar.netlify.app/web-technicaldocumentation"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">External Cognition Utilization in Microsoft's Products</h5>
+                            <p class="card-text"> In this case study, use of external cognition Microsoft's products was
+                                investigated.</p>
+                            <a href="https://anusha-anilkumar.netlify.app/ux-external-cognition-utilization"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Shneiderman's 8 Golden Rules Integration in iPhones</h5>
+                            <p class="card-text">In this case study, use of these rules in Apple products was
+                                investigated.</p>
+                            <a href="https://anusha-anilkumar.netlify.app/ux-shneiderman-golden-rules"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz Page</h5>
+                            <p class="card-text">A quiz is a form of game or mind sport in which players attempt to
+                                answer questions correctly on several topics. </p>
+                            <a href="https://anusha-anilkumar.netlify.app/web-accessibilityquiz"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mb-5">
+            <h2>About ✨</h2>
+
+            <p>With my diverse background in full-stack, web development, UX design, and technical writing, I bring a
+                unique blend of skills to the world of software development. I'm passionate about crafting exceptional
+                digital experiences and thrive in collaborative environments that value innovation and user
+                satisfaction.</p>
+
+
+            <p>One of the key advantages I bring to the table is versatility. My ability to seamlessly move between
+                these disciplines means I can adapt to changing project requirements and contribute effectively at
+                various stages of product development. This versatility results in efficient workflows and a holistic
+                approach to projects, saving time and resources while ensuring the highest quality in documentation and
+                user experience.</p>
+
+
+            <!-- Tech Stack Section -->
+            <h2>Technology Stack 👩🏻💻</h2>
+            <!-- Ordered List -->
+            <ol>
+                <li><b>Languages:</b>HTML, CSS, Javascript,Typescript, SQL</li>
+                <li><b>Library and Frameworks:</b> React, Redux, Node JS, <span
+                        style="font-style: italic;">Bootstrap</span>, Styled Components</li>
+                <li><b>Database:</b> MongoDB, Graphql, MySQL, Google Firebase,
+                    Restful APIs</li>
+                <li><b>Version Control:</b> Git, Bitbucket, and Sourcetree</li>
+            </ol>
+
+            <!-- Unordered List -->
+            <ul>
+                <li><b>Design Tools:</b> Adobe Xd, Axure RP,
+                    Figma, Miro, Accessibility Insights for Web</li>
+                <li><b>Productivity Tools:</b> JIRA, VSCode, Netlify, Aha!, Confluence, MS Office, Postman, Slack, MS
+                    teams</li>
+                <li><b>Testing:</b> Jest</li>
+            </ul>
+
+            <!-- Definition List -->
+            <dl>
+                <dt class="other-skills"><i>Other Skills:</i></dt>
+                <dd>Docker, Project Scoping, Planning and Roadmapping, Technical Writing, Prototyping </dd>
+            </dl>
+        </section>
+
+        <div class="image-container">
+
+            <!-- Left-aligned image -->
+            <div class="left-img">
+                <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg"
+                    alt="Left Image" class="left-side-img">
+                <p>HTML is a Markup language. This image arrangement is done to satisfy the rubric, aligning the first
+                    image to left</p>
+            </div>
+
+            <!-- Center-aligned image -->
+            <div class="center-img">
+                
+                    <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png"
+                        alt="Center Image" class="center-side-img">
+                    <p> CSS is a styling language. This image arrangement is done to satisfy the rubric, aligning the second
+                        image to center</p>
+            </div>
+
+            <!-- Right-aligned image -->
+            <div class="right-img">
+            <img src="https://www.oxfordwebstudio.com/user/pages/07.blog/web-dizajn/responsive-design-i-css-3/responsive-dizajn.jpg"
+                alt="Right Image" class="right-side-img">
+                <p> This image arrangement is done to satisfy the rubric, aligning the third
+                    image to left</p>
+            </div>
+
+
+            <!-- Fourth image turned into a link -->
+            <div class="fourth-img">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="link-img">
+                <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-javascript/sta-je-javascript.jpg"
+                    alt="Fourth Image" class="img">
+            </a>
+            <p>This image arrangement is done to satisfy the rubric,  turning the fourth image into a link.</p>
+        </div>
+
+        </div>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact 📭</h2>
+            <h5>Let's work together! Get in touch</h5>
+            <br>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/anilk-anusha/" target="_blank"> <i class="fa fa-linkedin-square"
+                        style="font-size:36px"></i></a>
+                <a href="https://github.com/anilk-anusha" target="_blank"> <i class="fa fa-github"
+                        style="font-size:36px"></i></a>
+                <a href="https://anusha-anilkumar.netlify.app/" target="_blank"> <i class="fa fa-briefcase"
+                        style="font-size:36px"></i></a>
+                <br>
+                <br>
+                <h5>Write to me at:</h5>
+                <p>anusharao.ux@gmail.com</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-primary text-white">
+        <p>&copy; 2023 Anusha Anil Kumar</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
