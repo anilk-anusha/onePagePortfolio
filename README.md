@@ -3,7 +3,7 @@
 ## One Page Portfolio
 ## Project author: Anusha Anil Kumar
 
-# Tech Stack:
+### Tech Stack:
 - HTML
 - CSS
 - Bootstrap v4.5.2
