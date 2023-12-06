@@ -1,11 +1,17 @@
-# onePagePortfolio
-# Project name: One Page Portfolio
+# Assignment 5: HTML/CSS Webpage
+
+# One Page Portfolio
 # Project author: Anusha Anil Kumar
 
-# Tech Stack Used:
+# Tech Stack:
 - HTML
 - CSS
-- Bootdtrap v5.3
+- Bootstrap v4.5.2
+- Font Awesome v4.7.0 
 
-Bootstrap version used: 5.3
-Reference for Bootstrap taken from the official Bootstrap website - https://getbootstrap.com/docs/5.3/getting-started/introduction/
+# Note 
+1. Bootstrap:
+- Reference for Bootstrap taken from the official Bootstrap website -  (https://getbootstrap.com/)
+
+2.  Font Awesome:
+- Referece for Font Awesome 4.7.0 by @davegandy - http://fontawesome.io 

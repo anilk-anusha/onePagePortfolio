@@ -121,9 +121,7 @@ h1 {
 }
 
 
-
-
-
+/* Rubric styling */
 .other-skills{
     text-decoration: underline;
     color: blue;
@@ -180,6 +178,6 @@ dd {
 }
 
 .socials a:hover {
-    color: #f0f0f0;
+    color: #3c3c3c;
     text-decoration: none;
 }
