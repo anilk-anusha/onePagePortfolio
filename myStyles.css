@@ -38,6 +38,7 @@ h1 {
     margin: 10px;
 
 }
+
 .left-side-img {
     float: left;
     width: 250px;
@@ -47,7 +48,7 @@ h1 {
 
 
 /* Center-aligned images */
-.center-img{
+.center-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +59,7 @@ h1 {
     box-shadow: 0 4px 8px #000;
     margin: 10px;
 }
+
 .center-side-img {
     margin: 20px;
     width: 250px;
@@ -96,6 +98,7 @@ h1 {
     box-shadow: 0 4px 8px #000;
     margin: 10px;
 }
+
 .link-img {
     float: left;
     width: 250px;
@@ -122,7 +125,7 @@ h1 {
 
 
 /* Rubric styling */
-.other-skills{
+.other-skills {
     text-decoration: underline;
     color: blue;
     font-family: 'Arial';
@@ -138,11 +141,14 @@ h1 {
 }
 
 /* Technology Stack */
-ol, ul, dl {
+ol,
+ul,
+dl {
     padding-left: 20px;
 }
 
-ol li, ul li {
+ol li,
+ul li {
     margin-bottom: 5px;
 }
 
@@ -180,4 +186,15 @@ dd {
 .socials a:hover {
     color: #3c3c3c;
     text-decoration: none;
+}
+
+
+/* Media queries for smaller screen size */
+@media (max-width: 550px) {
+
+    .left-img,
+    .right-img,
+    .fourth-img {
+        flex-direction: column;
+    }
 }
