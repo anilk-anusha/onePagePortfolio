@@ -1,7 +1,4 @@
-# Assignment 5: HTML/CSS Webpage
-
-## One Page Portfolio
-## Project author: Anusha Anil Kumar
+# One Page Portfolio
 
 ### Tech Stack:
 - HTML
